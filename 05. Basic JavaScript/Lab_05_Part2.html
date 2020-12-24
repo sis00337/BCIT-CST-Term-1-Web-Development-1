@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Prompt</title>
+    <script>
+      let countNum = Number(prompt("Enter the count of numbers", '2'));
+      let numList = [];
+      for (let i = 0; i < countNum; i++) {
+        let numUser = Number(prompt("Enter a number"));
+        if (numUser >= 0) {
+          numList.push(numUser)
+        }
+      }
+      document.write("The count of positive numbers is " + numList.length);
+    </script>
+  </head>
+  <body>
+
+  </body>
+</html>

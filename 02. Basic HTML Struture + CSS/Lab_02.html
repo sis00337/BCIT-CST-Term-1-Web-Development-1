@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Min Soo HWANG home page</title>
+        <meta charset="UTF-8">
+        <link href="./css/stylesheet.css" rel="stylesheet" />
+        <style>
+            body {
+                background-color: whitesmoke;
+                width: 100%;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>Min Soo HWANG</h1>
+        <h2>About Me</h2>
+        <p>Hello, I am from Korea, and I am studying Computer System at BCIT.
+            Let me introduce myself. I am pretty tall (185cm),
+            but I have relatively small hands and feet.
+            I am a introverted person so I am not used to interacting
+            with other people. I am going on a diet recently because I gained
+            my weight a lot. I am living with my partner in Vancouver right
+            now. She is so beautiful. By the way, this term is my first
+            semester, and I am taking the courses below:
+        </p>
+        <ul>
+            <li>
+                <a href="https://www.bcit.ca/study/outlines/20203044910"
+                target="_blank" title="COMP 1100 course outline">COMP 1100 - CST Fundamentals</a>
+            </li>
+            <li>
+                <a href="https://www.bcit.ca/study/outlines/20203044912"
+                target="_blank" title="COMP 1113 course outline">COMP 1113 - Applied Mathematics</a>
+            </li>
+            <li>
+                <a href="https://www.bcit.ca/study/outlines/20203044909"
+                target="_blank" title="COMM 1116 course outline">COMM 1116 - Business Communications</a>
+            </li>
+            <li>
+                <a href="https://www.bcit.ca/study/outlines/20203045300"
+                target="_blank" title="COMP 1712 course outline">COMP 1712 - Business Analysis and System Design</a>
+            </li>
+            <li>
+                <a href="https://www.bcit.ca/study/outlines/20203046874"
+                target="_blank" title="COMP 1800 course outline">COMP 1800 - Project Course</a>
+            </li>
+        </ul>
+        <h2>My Likes and Dislikes</h2>
+        <table>
+            <tr>
+                <th>Likes</th>
+                <th>Dislikes</th>
+            </tr>
+            <tr class="black_bg">
+                <td>Watching a movie</td>
+                <td>Swimming</td>
+            </tr>
+            <tr class="gray_bg">
+                <td>Sleeping</td>
+                <td>Reading a book</td>
+            </tr>
+            <tr class="black_bg">
+                <td>Drinking alcohol</td>
+                <td>Walking</td>
+            </tr>
+            <tr class="gray_bg">
+                <td>Cooking</td>
+                <td>Washing dishes</td>
+            </tr>
+        </table>
+
+        <h2>Contact Me</h2>
+        <form>
+            <input type="text" id="name" name="name" placeholder="Name" autofocus="autofocus"
+            pattern="[A-Za-z\s]+" required="required" style="width:170px;"/>
+            <br>
+            <input type="number" id="age" name="age" placeholder="Age" required="required"
+            min="18" max="50" style="width:170px;"/>
+            <br>
+            <input type="email" id="email" name="email" placeholder="Email"
+            required="required" style="width:170px;"/>
+            <br>
+            <input type="submit" id="submit_button" name="submit" value="Submit"/>
+            <input type="reset" id="reset" name="reset" value="Reset"/>
+        </form>
+    </body>
+</html>

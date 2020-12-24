@@ -1,0 +1,30 @@
+body {margin: 0; padding: 0; background-color: whitesmoke;}
+main > * {
+    float: left;
+    width: 24%;
+    height: 98vh;
+}
+main aside {
+    background-color: black;
+    text-align: center;
+    color: white;
+}
+main aside img,  section img {
+    border-radius: 50%;
+}
+main section {
+    width: 49.5%;
+    padding: 1%;
+}
+
+/* ----------- Add your styles below ---------- */
+section ul {
+    padding: 0;
+    list-style: none;
+}
+
+li button {
+    background-color: red;
+    border-radius: 50%;
+    border: 0;
+}

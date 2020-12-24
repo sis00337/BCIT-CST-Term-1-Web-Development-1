@@ -1,0 +1,31 @@
+body {
+    background-color:#678bb3;
+    padding:0;
+    margin:0;
+}
+
+#cloud1 {
+  position: fixed;
+  left: -60vw;
+  animation-name: move_left;
+  animation-duration: 20s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+
+#cloud2 {
+  position: fixed;
+  left: -60vw;
+  right: 0;
+  padding-top: 150px;
+  animation-name: move_left;
+  animation-duration: 25s;
+  animation-delay: 5s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+
+@keyframes move_left {
+  from {left: -60vw;}
+  to {left: 100vw}
+}

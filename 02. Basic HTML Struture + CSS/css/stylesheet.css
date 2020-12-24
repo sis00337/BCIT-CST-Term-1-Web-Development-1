@@ -1,0 +1,31 @@
+.black_bg {
+    background-color: black;
+    color: whitesmoke;
+}
+.gray_bg {
+    background-color: gray;
+    color: whitesmoke;
+}
+h1, h2 {
+    background-color: teal;
+    color: whitesmoke;
+    width: 97%;
+}
+#submit_button {
+    background-color: indianred;
+}
+a {
+    background-color: khaki;
+    color: blue;
+}
+p {
+    width: 97%
+}
+th {
+    color: whitesmoke;
+    background-color: hotpink;
+    width: 120px;
+}
+td {
+    text-align: center;
+}

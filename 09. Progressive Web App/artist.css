@@ -1,0 +1,16 @@
+/* styling for artist.html */
+body {
+  margin-right: 50px;
+}
+section {
+  width: 40%;
+  margin-left: auto;
+  text-align: center;
+}
+section img {
+  border-radius: 50%;
+}
+section h1 {
+  background-color: teal;
+  color: whitesmoke;
+}

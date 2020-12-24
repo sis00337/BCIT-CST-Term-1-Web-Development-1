@@ -1,0 +1,25 @@
+h2 + p {
+  background-color: gray;
+  color: white;
+}
+a {
+  color: pink;
+}
+a:visited {
+  color: red;
+}
+div li {
+  background-color: #BFB300;
+}
+tr:nth-child(2n+1){
+  background-color: skyblue;
+}
+tr:nth-child(2n){
+  background-color: coral;
+}
+tr:nth-child(5){
+  background-color: greenyellow;
+}
+li:hover {
+  background-color: lightsalmon;
+}

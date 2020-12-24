@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Prompt</title>
+    <script>
+      let calculation = prompt("Specify an operation (addition / subtraction / multiplication / division)", "addition");
+      let firstNum = Number(prompt("Enter the first number"));
+      let secondNum = Number(prompt("Enter the second number"));
+      let result = null;
+      if (calculation === 'addition') {
+        result = firstNum + secondNum
+      }
+      else if (calculation === 'subtraction') {
+        result = firstNum - secondNum
+      }
+      else if (calculation === 'multiplication') {
+        result = firstNum * secondNum
+      }
+      else if (calculation === 'division') {
+        result = firstNum / secondNum
+      }
+      document.write("The result of " + calculation + " of " + firstNum + " and " + secondNum + " is " + result);
+    </script>
+  </head>
+  <body>
+
+  </body>
+</html>
